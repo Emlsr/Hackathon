@@ -1,0 +1,132 @@
+body {
+  background-color: rgb(84, 82, 89);
+}
+.container {
+  position: relative;
+  background-image: url(./image/14.jpg);
+  border-radius: 20px;
+}
+.mt-50 {
+  margin-top: 50px;
+}
+
+.experience .experience-title {
+  color: cyan;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.experience-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 100px;
+}
+.experience-list__item {
+  max-width: 300px;
+  text-align: center;
+  margin: 0 40px;
+}
+
+.item__title {
+  color: var(--main-color);
+  font-size: var(--service-title-size);
+  font-weight: 600px;
+  line-height: 38px;
+  letter-spacing: -0.75px;
+}
+
+.item__description {
+  font-size: var(--main-size);
+  color: var(--secondary-color);
+  line-height: 28px;
+}
+.cargo {
+  width: 216px;
+  height: 144px;
+}
+.bank {
+  margin-top: 5px;
+  width: 230px;
+  height: 140px;
+  border-radius: 40px;
+}
+.skills {
+  font-size: var(--main-size);
+  color: var(--main-color);
+  margin-top: 50px;
+}
+
+.skills_name {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.skills-item {
+  font-size: large;
+}
+
+.exp_prog {
+  display: flex;
+  justify-content: space-evenly;
+}
+.bar {
+  width: 600px;
+  justify-content: center;
+}
+.js {
+  margin-top: 10px;
+}
+.foot {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.container1 {
+  width: 1320px;
+  margin: 0 auto;
+  background-color: rgb(3, 52, 52);
+  border-radius: 10px;
+}
+.it {
+  width: 50px;
+  height: 40px;
+}
+.navigation {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 400px;
+}
+.navigation__item a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: var(--nav-size);
+}
+.barchic {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+.site-data {
+  color: rgb(148, 168, 233);
+}
+@media (max-width: 1200px) {
+  .container {
+    max-width: 100%;
+    padding: 0 25px;
+  }
+}
+@media (max-width: 700px) {
+  .navigation {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  .barchic {
+    flex-direction: column;
+    text-align: center;
+    row-gap: 40px;
+  }
+}
